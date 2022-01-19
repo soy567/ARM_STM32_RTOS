@@ -1,52 +1,33 @@
-# Prerequisites
-*.d
+# CubeIDE metadata
+.metadata
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# CubeIDE file
+.settings
+Debug
+*.launch
+*.ld
+Drivers
+Startup
+stm32f1xx_hal_msp.c
+stm32f1xx_it.c
+syscalls.c
+sysmem.c
+system_stm32f1xx.c
+stm32f1xx_hal_conf.h
+stm32f1xx_it.h
+.cproject
+.mxproject
+.project
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Datasheet
+datasheet
 
-# Precompiled Headers
-*.gch
-*.pch
+# schematic
+circuit
+schematic
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# pdf file
+*.pdf
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# DS_Store
+.DS_Store
