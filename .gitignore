@@ -31,3 +31,6 @@ schematic
 
 # DS_Store
 .DS_Store
+
+# RTOS default
+*/Middlewares/
